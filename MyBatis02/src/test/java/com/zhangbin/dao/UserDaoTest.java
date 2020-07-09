@@ -28,4 +28,17 @@ public class UserDaoTest {
         sqlSession.close();
 
     }
+
+    @Test
+    public void test02(){
+        SqlSession sqlSession = MyBatisUtils.getSqlSession();
+        UserMapperInteFace mapper = sqlSession.getMapper(UserMapperInteFace.class);
+        List<User> user = mapper.getUser();
+        for (User user1 : user) {
+            System.out.println(user1);
+        }
+
+
+        sqlSession.close();
+    }
 }

@@ -10,5 +10,8 @@ import java.util.List;
  * @Date 2020/7/9-9:21
  */
 public interface UserMapper {
+    //查询所有数据
     List<User> getUserList();
+
+
 }
