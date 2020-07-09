@@ -18,6 +18,7 @@
     <!--每一个mapper.xml都需要在mybatis核心配置文件中注册-->
     <mappers>
         <mapper resource="com/zhangbin/dao/UserMapper.xml"></mapper>
+        <!--使用注解需要配置接口，注意XML和接口不能配在一个mapper里，否则会报错-->
         <mapper class="com.zhangbin.dao.UserMapperInteFace"></mapper>
     </mappers>
 </configuration>
