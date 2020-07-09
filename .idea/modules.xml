@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MyBatis-01.iml" filepath="$PROJECT_DIR$/.idea/MyBatis-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyBatis02/MyBatis02.iml" filepath="$PROJECT_DIR$/MyBatis02/MyBatis02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyBatis03/MyBatis03.iml" filepath="$PROJECT_DIR$/MyBatis03/MyBatis03.iml" />
     </modules>
   </component>
 </project>
