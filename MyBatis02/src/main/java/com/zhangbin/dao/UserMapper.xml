@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace绑定一个对应的dao/mapper接口-->
+<mapper namespace="com.zhangbin.dao.UserMapper">
+    <!--resultType为返回的类型-->
+    <!--parameterType为参数类型-->
+    <!--id为接口的方法名称-->
+    <select id="getUserList" resultType="com.zhangbin.pojo.User">
+      select * from dayu.userdata
+    </select>
+</mapper>
